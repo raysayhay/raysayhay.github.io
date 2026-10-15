@@ -456,6 +456,14 @@
       .profile-photo { min-height: 180px; }
     }
 
+    /* Remove decorative circular outlines behind the profile photo */
+    .aside-mark::before,
+    .aside-mark::after {
+      content: none !important;
+      display: none !important;
+      border: 0 !important;
+    }
+
   </style>
 </head>
 <body>
